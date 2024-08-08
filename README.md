@@ -30,7 +30,7 @@ You will be making one kata each, but you will be in development teams. The aim 
 
 Attack this as you would any other problem - plan, plan, plan and use our agile approach to create steps that allow you to build MVPs and incrementally reach your stretch goals. Brainstorm options with a technique like Disney Ideation. Once you have a compelling challenge and story idea, start breaking it down. Think about the goals of your challenge, and the scenarios you could provide to test if people have reached those goals. Provide any examples or additional details that are necessary for someone taking on your kata to understand the problem, but don't give away so much that it removes the challenge. You want to strike a balance - not too vague but not spoon-feeding the solution either.
 
-Write your kata's scenario in a comment in `main.js` and include the start of an exported function that your audience will use to solve it (like you've seen on the katas you've done before). If it's useful to see an example:
+Write your kata's scenario in a comment in `reverse.js` and include the start of an exported function that your audience will use to solve it (like you've seen on the katas you've done before). If it's useful to see an example:
 
 ```js
 /**
@@ -58,27 +58,27 @@ Since you'll write tests before seeing people's solutions, focus on defining exp
 If it's useful to see an example (continuing the `checkLength` example from earlier):
 
 ```js
-import { test, expect } from "vitest";
-import { checkLength } from "./main.js";
+import {test, expect} from "vitest";
+import {checkLength} from "./reverse.js";
 
 test("should return -1 for strings with an odd length", () => {
-  const expected = -1;
-  const actual = checkLength("table");
-  expect(actual).toBe(expected);
+    const expected = -1;
+    const actual = checkLength("table");
+    expect(actual).toBe(expected);
 });
 
 test("should return 1 for strings with an even length", () => {
-  const expected = 1;
-  const actual = checkLength("wizard");
-  expect(actual).toBe(expected);
+    const expected = 1;
+    const actual = checkLength("wizard");
+    expect(actual).toBe(expected);
 });
 ```
 
-🎯 At this stage you should have a description of the problem in `main.js` and some tests in `main.test.js`.
+🎯 At this stage you should have a description of the problem in `reverse.js` and some tests in `reverse.test.js`.
 
 ### 🎫 Ticket 4 - Check your tests
 
-To verify your tests, temporarily add a working implementation to the solution function in `main.js`. Check that the tests fail before implementation and pass when the function is coded correctly. This validates that your tests accurately check for both incorrect and correct solutions. Remember to remove the solution code afterwards before sharing the kata.
+To verify your tests, temporarily add a working implementation to the solution function in `reverse.js`. Check that the tests fail before implementation and pass when the function is coded correctly. This validates that your tests accurately check for both incorrect and correct solutions. Remember to remove the solution code afterwards before sharing the kata.
 
 If it's useful to see an example (continuing the `checkLength` example from earlier):
 
@@ -110,5 +110,5 @@ Make sure you present your project in the markdown file - this will be assessed 
 
 ### 🎫 Ticket 7 - Complete katas from others
 
-To solve katas created by other bootcampers, first clone their repository using the shared link. `cd` into the folder, run `npm install` to get the dependencies, then implement a solution in main.js. Execute their test cases to validate your code against their requirements. Provide feedback on the clarity of their instructions, difficulty level, and effectiveness of the tests. Engaging with each other's challenges allows everyone to learn. Make sure to critique respectfully - creating a programming challenge is difficult!
+To solve katas created by other bootcampers, first clone their repository using the shared link. `cd` into the folder, run `npm install` to get the dependencies, then implement a solution in reverse.js. Execute their test cases to validate your code against their requirements. Provide feedback on the clarity of their instructions, difficulty level, and effectiveness of the tests. Engaging with each other's challenges allows everyone to learn. Make sure to critique respectfully - creating a programming challenge is difficult!
 
