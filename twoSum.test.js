@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { twoSum } from './twoSum.js'; // Update the path to where your twoSum function is located
+import { twoSum } from './twoSum.js'; 
 
 test('twoSum', () => {
         expect(twoSum([2, 7, 11, 15], 9)).toEqual([2, 7]);

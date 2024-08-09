@@ -1,7 +1,8 @@
 /**
- * Hello challenger! Your task is to write the logic ib `reverseArray` that will take an array and returns it reversed
- *
- *
+ * Hello challenger! Your task is to write the logic for `reverseArray` that will take an array and returns it reversed array
+ * The array can contain any datatype
+ * The array can contain any datatype
+ * The array can contain any datatype
  *
  * A few examples:
  *
@@ -12,4 +13,3 @@
 export const reverseArray = (array) => {
 
 }
-
