@@ -1,4 +1,8 @@
 /**
+ * FIRST THINGS FIRST REMOVE .SKIP FROM THE reverse.test.js file AND add .skip to the twoSum.test.js
+ *
+ *
+ *
  * Hello challenger! Your task is to write the logic for `reverseArray` that will take an array and returns it reversed array
  * The array can contain any datatype
  * The array can contain any datatype
