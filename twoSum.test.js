@@ -19,20 +19,3 @@ test('twoSum', () => {
 
 
 
-/* DO NOT OPEN
-    const usedNumbers = [];
-
-    for (let i = 0; i < array.length; i++) {
-        const currentNumber = array[i];
-
-        const neededValue = target - currentNumber;
-
-        for (let j = 0; j < usedNumbers.length; j++) {
-            if (usedNumbers[j].number === neededValue) {
-                return [neededValue, currentNumber];
-            }
-        }
-        usedNumbers.push({number: currentNumber});
-    }
-    return null;
- */
